@@ -1,0 +1,17 @@
+/* VARIABLER vi har lavet vores farver til variabler*/
+$white: #f7f7f7; 
+$primary: #FFF9F1;
+$orange: #FFEAD7;
+$black: #040404;
+$blue: #0075FF;
+$dark_blue: #014DA7;
+$light_blue: #BEDCFF;
+
+
+/*MIXINS vi laver mixin på topmenu da den skal genbruges til alle siderne*/
+@mixin topmenu{
+    display: flex;
+    list-style-type: none;
+    font-family: "Francois";
+    font-size: 1rem;
+}
