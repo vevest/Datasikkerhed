@@ -1,17 +1,66 @@
 /* VARIABLER vi har lavet vores farver til variabler*/
 $white: #f7f7f7; 
 $primary: #FFF9F1;
+$grey:#999999;
+$light_grey:#E4E4E4;
 $orange: #FFEAD7;
 $black: #040404;
 $blue: #0075FF;
-$dark_blue: #014DA7;
+$hover_blue: #4198FF;
 $light_blue: #BEDCFF;
+
+@font-face {
+    font-family: "Abel";
+    src: url(font/Abel/Abel-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Advent Pro";
+    src: url(font/Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf);
+  }
+  
+  @font-face {
+    font-family: "Alef";
+    src: url(font/Alef/Alef-Regular.ttf);
+  }
 
 
 /*MIXINS vi laver mixin på topmenu da den skal genbruges til alle siderne*/
 @mixin topmenu{
     display: flex;
     list-style-type: none;
-    font-family: "Francois";
-    font-size: 1rem;
+    font-family: "Abel";
+    font-size: 1.1rem;
 }
+
+/* generelle regler for fontene*/
+
+h1{
+    color: $black;
+    font-family: "Advent Pro"  ;
+    font-weight: bolder ;
+    font-size: 55px;
+}
+
+h2{
+    color: $black;
+    font-family: "Advent Pro"  ;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+h3{
+    color: $black;
+    font-family: "Alef"  ;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+p{
+    color: $black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 13px;
+}
+
+
+

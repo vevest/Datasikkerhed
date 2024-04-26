@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* VARIABLER vi har lavet vores farver til variabler*/
+@font-face {
+  font-family: "Abel";
+  src: url(font/Abel/Abel-Regular.ttf);
+}
+@font-face {
+  font-family: "Advent Pro";
+  src: url(font/Advent_Pro/AdventPro-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: "Alef";
+  src: url(font/Alef/Alef-Regular.ttf);
+}
+/*MIXINS vi laver mixin på topmenu da den skal genbruges til alle siderne*/
+/* generelle regler for fontene*/
+h1 {
+  color: #040404;
+  font-family: "Advent Pro";
+  font-weight: bolder;
+  font-size: 55px;
+}
+
+h2 {
+  color: #040404;
+  font-family: "Advent Pro";
+  font-size: 34px;
+  font-weight: 400;
+}
+
+h3 {
+  color: #040404;
+  font-family: "Alef";
+  font-size: 21px;
+  font-weight: 300;
+}
+
+p {
+  color: #040404;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.knap {
+  padding: 0.8rem;
+  background-color: #0075FF;
+  width: 15%;
+  text-align: center;
+  border-radius: 13px;
+  box-shadow: 2px 2px 5px #999999;
+  margin: 2rem;
+}
+.knap a {
+  color: #f7f7f7;
+  font-family: "Abel";
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.knap:hover {
+  background-color: #4198FF;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.header_logo:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 2px 5px 15px #E4E4E4;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+}
+body header .logo {
+  padding: 2.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  z-index: 100;
+}
+body header .header_logo {
+  height: 2.2rem;
+}
+body header .topmenu {
+  z-index: 100;
+}
+body header .topmenu-links {
+  display: flex;
+  list-style-type: none;
+  font-family: "Abel";
+  font-size: 1.1rem;
+}
+body header .topmenu-links a {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #040404;
+  text-decoration: none;
+}
+body header .topmenu-links :hover {
+  color: #0075FF;
+}
+body header .topmenu-links :active {
+  color: #4198FF;
+}
+body header .topmenu-links .active {
+  color: #4198FF;
+}
+body main {
+  padding: 5rem;
+}
+body main img {
+  width: 100%;
+}
+body main .boks1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+}
+body main .boks1 h1 {
+  margin-bottom: 0;
+  margin-left: 2rem;
+}
+body main .boks1 h3 {
+  margin-top: 3px;
+  margin-left: 2rem;
+}
+body main .boks1 p {
+  padding-top: 1.5rem;
+  padding-right: 3rem;
+  margin-left: 2rem;
+  line-height: 1.2rem;
+}
+body main .boks1 .overlay1 {
+  position: relative; /* set container to a relative position */
+}
+body main .boks1 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80%;
+  height: 90%;
+  margin: 3rem;
+  border-radius: 14px;
+}
+body main .boks1 .knap {
+  width: 25%;
+  position: absolute;
+  top: 70%;
+  left: 28%;
+}
+body main .boks2 {
+  padding-top: 6rem;
+}
+body main .boks2 h2 {
+  text-align: center;
+  background-color: #FFF9F1;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  border-radius: 4px;
+}
+body main .boks2 h3 {
+  text-align: center;
+  padding-top: 0.5rem;
+  margin-bottom: 0;
+}
+body main .boks2 p {
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+  line-height: 1.2rem;
+}
+body main .boks2 .overlay2 {
+  position: relative;
+  display: inline-block;
+}
+body main .boks2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 60%;
+  border-radius: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+body main .boks2 .knap {
+  width: 35%;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
+body main .boks3 {
+  padding-top: 5rem;
+  text-align: center;
+}
+body main .boks3 h2 {
+  margin-bottom: 0;
+  margin-bottom: 0.3rem;
+}
+body main .boks3 p {
+  width: 36%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+body main .boks3 .knap {
+  width: 26%;
+  margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+body footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #0075FF;
+}
+body footer img {
+  padding: 2rem;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  width: 35%;
+}
+body footer p {
+  color: #f7f7f7;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}/*# sourceMappingURL=styler.css.map */
