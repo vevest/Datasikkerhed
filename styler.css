@@ -68,6 +68,10 @@ p {
   transition: 0.5s;
 }
 
+.active {
+  color: #BEDCFF;
+}
+
 body {
   padding: 0;
   margin: 0;

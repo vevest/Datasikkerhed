@@ -31,6 +31,10 @@
     transition: 0.5s;
 }
 
+.active{
+    color: partials.$light_blue ;
+  }
+
 
 body{
     padding: 0;
