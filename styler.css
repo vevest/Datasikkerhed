@@ -63,6 +63,25 @@ p {
   box-shadow: none;
 }
 
+.btn {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  background-color: #0075FF;
+  width: 8rem;
+  border-radius: 13px;
+  color: #FFF9F1;
+  font-size: 24px;
+  font-family: "Abel";
+  box-shadow: 2px 2px 5px #999999;
+}
+
+.btn:hover {
+  background-color: #4198FF;
+  cursor: pointer;
+  box-shadow: none;
+}
+
 .header_logo:hover {
   transform: scale(1.2);
   transition: 0.5s;
@@ -72,20 +91,29 @@ p {
   color: #F1F8FF;
 }
 
-#scenarie {
-  position: relative;
-  display: inline-block;
-}
-
-#scenarie img {
-  width: 100%;
+.tilbage-link {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  z-index: 100;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 8%;
+  background-color: #FFEAD7;
+  border-radius: 6px;
+}
+
+.tilbage-link:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 
 .quizboks {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #FFF9F1;
@@ -111,6 +139,13 @@ p {
   padding-left: 5rem;
 }
 .quizboks .btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  z-index: 300;
+  cursor: pointer;
+}
+.quizboks .knap {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
