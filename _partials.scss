@@ -7,7 +7,7 @@ $orange: #FFEAD7;
 $black: #040404;
 $blue: #0075FF;
 $hover_blue: #4198FF;
-$light_blue: #BEDCFF;
+$light_blue: #F1F8FF;
 
 @font-face {
     font-family: "Abel";
@@ -38,7 +38,7 @@ $light_blue: #BEDCFF;
 h1{
     color: $black;
     font-family: "Advent Pro"  ;
-    font-weight: bolder ;
+    font-weight: 600 ;
     font-size: 55px;
 }
 

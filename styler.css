@@ -17,7 +17,7 @@
 h1 {
   color: #040404;
   font-family: "Advent Pro";
-  font-weight: bolder;
+  font-weight: 600;
   font-size: 55px;
 }
 
@@ -69,7 +69,7 @@ p {
 }
 
 .active {
-  color: #BEDCFF;
+  color: #F1F8FF;
 }
 
 body {
@@ -221,6 +221,136 @@ body main .boks3 p {
 body main .boks3 .knap {
   width: 26%;
   margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+body main .boks4 {
+  text-align: center;
+  border-radius: 6px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 4px 4px 5px #E4E4E4;
+  margin-top: 3rem;
+  border: #E4E4E4 solid 1px;
+}
+body main .boks4 h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 3rem;
+}
+body main .boks4 h3 {
+  margin-top: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body main .boks4 p {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+}
+body main .boks4 .graa-streg {
+  margin-top: 2rem;
+}
+body main .boks4 .knap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-bottom: 4rem;
+}
+body main .test_overskrift {
+  font-weight: 300;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+body main .boks5 {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  text-align: center;
+  border: #E4E4E4 solid 1px;
+  padding-bottom: 2rem;
+  border-radius: 6px;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 4px 4px 5px #E4E4E4;
+}
+body main .boks5 h2 {
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-weight: 500;
+}
+body main .boks5 p {
+  margin-top: 1.5rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+body main .boks5 .knap {
+  width: 26%;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+body main .boks5 .knap a {
+  font-size: 22px;
+}
+body main .graa-streg {
+  height: 1px;
+  width: 80%;
+  background-color: #E4E4E4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+body main .boks6 {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 2px 2px 5px #999999;
+  border-radius: 4px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF9F1;
+}
+body main .boks6 .overlay3 {
+  position: relative;
+  display: inline-block;
+}
+body main .boks6 .overlay3 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  display: block;
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+body main .boks6 .overlay3 h2 {
+  width: 80%;
+  position: absolute;
+  text-align: center;
+  background-color: #FFF9F1;
+  top: 18%;
+  left: 9.5%;
+  border-radius: 4px;
+}
+body main .boks6 h3 {
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+body main .boks6 .knap {
+  width: 35%;
   margin-left: auto;
   margin-right: auto;
 }
