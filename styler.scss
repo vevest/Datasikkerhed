@@ -26,6 +26,8 @@
     box-shadow: none;
 }
 
+
+
 .header_logo:hover{
     transform: scale(1.2);
     transition: 0.5s;
@@ -34,6 +36,65 @@
 .active{
     color: partials.$light_blue ;
   }
+
+
+.quiz-container{
+    
+}
+#scenarie {
+    position: relative;
+    display: inline-block;
+}
+
+#scenarie img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.quizboks {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: partials.$primary;
+    padding: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    width: 55%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+        h2 {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        h3 {
+            padding-top: 1rem;
+            text-align: center;
+        }
+
+        .options {
+            text-align: start;
+            padding-left: 5rem;
+        }
+
+        .btn{
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            z-index: 300;
+        }
+    }
+
+.hide .quizboks {
+    display: none; // Skjul quizboks, når scenarie er skjult
+}
+
 
 
 body{
@@ -277,15 +338,6 @@ body{
             }
         }
 
-        
-
-        
-
-
-
-
-
-
 
         .test_overskrift{
             font-weight: 300;
@@ -404,6 +456,9 @@ body{
 
 
         }
+
+
+
 
 
 

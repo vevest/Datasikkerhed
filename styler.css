@@ -72,6 +72,55 @@ p {
   color: #F1F8FF;
 }
 
+#scenarie {
+  position: relative;
+  display: inline-block;
+}
+
+#scenarie img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.quizboks {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFF9F1;
+  padding: 30px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  width: 55%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.quizboks h2 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.quizboks h3 {
+  padding-top: 1rem;
+  text-align: center;
+}
+.quizboks .options {
+  text-align: start;
+  padding-left: 5rem;
+}
+.quizboks .btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  z-index: 300;
+}
+
+.hide .quizboks {
+  display: none;
+}
+
 body {
   padding: 0;
   margin: 0;
