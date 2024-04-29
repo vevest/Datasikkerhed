@@ -6,17 +6,13 @@ var btn2 = document.getElementById('btn2');
 var screen2 = document.getElementById('screen2');
 var btn3 = document.getElementById('btn3');
 var screen3 = document.getElementById('screen3');
-var btn4 = document.getElementById('btn4');
 var screen2a = document.getElementById('screen2a');
-var btn5 = document.getElementById('btn5');
 var screen2b = document.getElementById('screen2b');
-var btn6 = document.getElementById('btn6');
 var screen3a = document.getElementById('screen3a');
-var btn7 = document.getElementById('btn7');
 var screen3b = document.getElementById('screen3b');
-var btn8 = document.getElementById('btn8');
 var screen3c = document.getElementById('screen3c');
-var btn9 = document.getElementById('btn9');
+var knapper = document.getElementsByClassName('knap');
+
 
 // Skjul alle skærme undtagen scenarie ved start af testen
 hideAllScreens();
@@ -53,8 +49,80 @@ btn1.addEventListener('click', function() {
             scenarie.classList.add('hide');
             screen3.classList.remove('hide');
         }
+        else if (selectedAnswer.value === 'svarD') {
+            screen2.classList.add('hide');
+            screen2a.classList.remove('hide');
+        }
+        else if (selectedAnswer.value === 'svarE') {
+            screen2.classList.add('hide');
+            screen2b.classList.remove('hide');
+        }
+        else if (selectedAnswer.value === 'svarF') {
+            screen3.classList.add('hide');
+            screen3a.classList.remove('hide');
+        }
+        else if (selectedAnswer.value === 'svarG') {
+            screen3.classList.add('hide');
+            screen3b.classList.remove('hide');
+        }
+        else if (selectedAnswer.value === 'svarH') {
+            screen3.classList.add('hide');
+            screen3c.classList.remove('hide');
+        }
         
     } else {
         alert('Vælg venligst et svar for at fortsætte.');
     }
 });
+
+
+btn2.addEventListener('click', function() {
+    // Tjek hvilken svarmulighed der er valgt
+    var selectedAnswer = document.querySelector('input[name="answer"]:checked');
+
+    if (selectedAnswer) {
+        console.log('Valgt svarmulighed:', selectedAnswer.value);
+
+        // Skift til næste skærm baseret på valgt svarmulighed
+        if (selectedAnswer.value === 'svarD') {
+            screen2.classList.add('hide');
+            screen2a.classList.remove('hide');
+        }  else if (selectedAnswer.value === 'svarE') {
+            screen2.classList.add('hide');
+            screen2b.classList.remove('hide');
+        } 
+        } else {
+            alert('Vælg venligst et svar for at fortsætte.');
+        }
+});
+
+btn3.addEventListener('click', function() {
+    // Tjek hvilken svarmulighed der er valgt
+    var selectedAnswer = document.querySelector('input[name="answer"]:checked');
+
+    if (selectedAnswer) {
+        console.log('Valgt svarmulighed:', selectedAnswer.value);
+
+        // Skift til næste skærm baseret på valgt svarmulighed
+        if (selectedAnswer.value === 'svarF') {
+            screen3.classList.add('hide');
+            screen3a.classList.remove('hide');
+        }  else if (selectedAnswer.value === 'svarG') {
+            screen3.classList.add('hide');
+            screen3b.classList.remove('hide');
+        }  else if (selectedAnswer.value === 'svarH') {
+            screen3.classList.add('hide');
+            screen3c.classList.remove('hide');
+        }
+        } else {
+            alert('Vælg venligst et svar for at fortsætte.');
+        }
+    });
+
+
+// Tilføjer en eventlistener til min "prøv igen!" knap
+for (var i = 0; i < knapper.length; i++) {
+    knapper[i].addEventListener('click', function() {
+        window.location.href = 'test.html';
+    });
+}
