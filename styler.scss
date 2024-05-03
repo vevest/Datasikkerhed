@@ -27,7 +27,6 @@
 }
 
 
-
 .btn{
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -56,6 +55,8 @@
 .active{
     color: partials.$light_blue ;
   }
+
+
 
 .tilbage-link {
     position: absolute;
@@ -125,7 +126,6 @@
 .hide .quizboks {
     display: none; // Skjul quizboks, når scenarie er skjult
 }
-
 
 
 body{
@@ -325,39 +325,27 @@ body{
         }
 
         .boks4{
-            text-align: center;
-            border-radius: 6px;
-            width: 80%;
-            margin-right: auto;
-            margin-left: auto;
-            box-shadow: 4px 4px 5px partials.$light_grey;
-            margin-top: 3rem;
-            border: partials.$light_grey solid 1px;
+            
 
             h1{
                 margin-bottom: 0;
                 margin-top: 0;
-                padding-top: 3rem;
+                padding-top: 12rem;
+                text-align: center;
             }
 
             h3{
                 margin-top: 0;
-                padding-top: 0.5rem;
-                padding-bottom: 1rem;
-                width: 50%;
-                margin-left: auto;
-                margin-right: auto;
+                padding-top: 2rem;
+                text-align: center;
             }
 
-            p{
-                width: 70%;
-                margin-left: auto;
-                margin-right: auto;
-                padding-bottom: 1rem;
-            }
 
             .graa-streg{
-                margin-top: 2rem;
+                margin-top: 10rem;
+                width: 100%;
+                margin-bottom: 0;
+                padding-bottom: 0;
             }
             
 
@@ -487,6 +475,41 @@ body{
 
 
         }
+
+        .boks7{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+
+            .graa-streg{
+                margin-top: 0;
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+
+            .overskrift1{
+                padding-top: 12rem;
+            }
+
+            h2{
+                padding-top: 6rem;
+            }
+
+            p{
+                line-height: 1.2rem;
+                padding-bottom: 2rem;
+                font-style: italic;
+                font-family: "Abel" ;
+                font-size: 17px;
+            }
+            
+
+
+
+
+
+        }
+
 
 
 

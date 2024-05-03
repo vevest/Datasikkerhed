@@ -41,6 +41,15 @@ p {
   font-size: 13px;
 }
 
+.liste li {
+  width: 80%;
+  line-height: 1.2rem;
+  color: #040404;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13.5px;
+  padding-bottom: 1rem;
+}
+
 .knap {
   padding: 0.8rem;
   background-color: #0075FF;
@@ -308,37 +317,22 @@ body main .boks3 .knap {
   margin-left: auto;
   margin-right: auto;
 }
-body main .boks4 {
-  text-align: center;
-  border-radius: 6px;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  box-shadow: 4px 4px 5px #E4E4E4;
-  margin-top: 3rem;
-  border: #E4E4E4 solid 1px;
-}
 body main .boks4 h1 {
   margin-bottom: 0;
   margin-top: 0;
-  padding-top: 3rem;
+  padding-top: 12rem;
+  text-align: center;
 }
 body main .boks4 h3 {
   margin-top: 0;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-body main .boks4 p {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  text-align: center;
 }
 body main .boks4 .graa-streg {
-  margin-top: 2rem;
+  margin-top: 10rem;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 body main .boks4 .knap {
   margin-left: auto;
@@ -437,6 +431,29 @@ body main .boks6 .knap {
   width: 35%;
   margin-left: auto;
   margin-right: auto;
+}
+body main .boks7 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body main .boks7 .graa-streg {
+  margin-top: 0;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+body main .boks7 .overskrift1 {
+  padding-top: 12rem;
+}
+body main .boks7 h2 {
+  padding-top: 6rem;
+}
+body main .boks7 p {
+  line-height: 1.2rem;
+  padding-bottom: 2rem;
+  font-style: italic;
+  font-family: "Abel";
+  font-size: 17px;
 }
 body footer {
   display: grid;
