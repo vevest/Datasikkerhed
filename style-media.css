@@ -2,7 +2,7 @@
   /* -------------------Hamburger menu for mobil site--------------------- */
   .hamburger {
     position: relative;
-    display: block;
+    display: inline-block;
     width: 35px;
     margin: 1rem;
     cursor: pointer;

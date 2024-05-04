@@ -312,6 +312,8 @@ body main .boks1 p {
     text-align: start;
     display: block;
     width: 90%;
+    padding-top: 0.3rem;
+    padding-right: 0;
   }
 }
 body main .boks1 .overlay1 {
@@ -325,6 +327,17 @@ body main .boks1 img {
   margin: 3rem;
   border-radius: 14px;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks1 img {
+    padding-top: 0.3rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    margin-left: 5%;
+  }
+}
 body main .boks1 .knap {
   width: 25%;
   position: absolute;
@@ -333,8 +346,9 @@ body main .boks1 .knap {
 }
 @media only screen and (max-width: 900px) {
   body main .boks1 .knap {
-    top: 45%;
-    left: 28%;
+    top: 44%;
+    left: 22%;
+    width: 30%;
   }
 }
 body main .boks2 {
@@ -358,6 +372,8 @@ body main .boks2 h2 {
     font-size: 28px;
     text-align: start;
     background-color: white;
+    padding-bottom: 0;
+    width: 80%;
   }
 }
 body main .boks2 h3 {
@@ -369,7 +385,9 @@ body main .boks2 h3 {
   body main .boks2 h3 {
     text-align: start;
     font-size: 17px;
-    width: 90%;
+    width: 80%;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
   }
 }
 body main .boks2 p {
@@ -383,8 +401,9 @@ body main .boks2 p {
 @media only screen and (max-width: 900px) {
   body main .boks2 p {
     text-align: start;
-    width: 90%;
+    width: 95%;
     margin: 0;
+    padding-bottom: 1.5rem;
   }
 }
 body main .boks2 .overlay2 {
@@ -401,16 +420,38 @@ body main .boks2 img {
   margin-right: auto;
   width: 80%;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks2 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 90%;
+    margin: 5%;
+    margin: 0;
+  }
+}
 body main .boks2 .knap {
   width: 35%;
   position: absolute;
   top: 60%;
   left: 30%;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks2 .knap {
+    top: 25%;
+    left: 0.5%;
+    width: 60%;
+  }
+}
 body main .boks3 {
   padding-top: 5rem;
   padding-bottom: 5rem;
   text-align: center;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks3 {
+    padding-top: 3.5rem;
+    padding-bottom: 2.5rem;
+  }
 }
 body main .boks3 h2 {
   margin-bottom: 0;
@@ -422,11 +463,23 @@ body main .boks3 p {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks3 p {
+    width: 80%;
+    padding-left: 0.5rem;
+  }
+}
 body main .boks3 .knap {
   width: 26%;
   margin-top: 2.5rem;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks3 .knap {
+    width: 40%;
+    margin-top: 2rem;
+  }
 }
 body main .boks4 h1 {
   margin-bottom: 0;
@@ -572,14 +625,39 @@ body footer {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #0075FF;
 }
+@media only screen and (max-width: 900px) {
+  body footer {
+    min-width: 100%;
+    margin: 0;
+  }
+}
 body footer img {
   padding: 2rem;
   padding-left: 3rem;
   padding-top: 3rem;
   width: 35%;
 }
+@media only screen and (max-width: 900px) {
+  body footer img {
+    width: 80%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
 body footer p {
   color: #f7f7f7;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+@media only screen and (max-width: 900px) {
+  body footer p {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    padding: 1.5rem;
+  }
 }/*# sourceMappingURL=styler.css.map */

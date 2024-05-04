@@ -273,6 +273,8 @@ body{
                     text-align: start;
                     display: block;
                     width: 90%;
+                    padding-top: 0.3rem;
+                    padding-right: 0;
                 }
             }
 
@@ -286,6 +288,14 @@ body{
                 height: 90%; 
                 margin: 3rem;
                 border-radius: 14px;
+                @media only screen and (max-width: 900px){
+                    padding-top: 0.3rem;
+                    object-fit: cover;
+                    width: 90%;
+                    height: 100%;
+                    margin: 0;
+                    margin-left: 5%;
+                }
             }
 
             .knap{
@@ -294,8 +304,9 @@ body{
                 top: 70%;
                 left: 28%;
                 @media only screen and (max-width: 900px){
-                    top: 45%;
-                    left: 28%;
+                    top: 44%;
+                    left: 22%;
+                    width: 30%;
                 }
             }
 
@@ -322,6 +333,8 @@ body{
                     font-size: 28px;
                     text-align: start;
                     background-color: white;
+                    padding-bottom: 0;
+                    width: 80%;
                 }
             }
 
@@ -335,7 +348,9 @@ body{
                 @media only screen and (max-width: 900px){
                     text-align: start;
                     font-size: 17px;
-                    width: 90%;
+                    width: 80%;
+                    padding-top: 0;
+                    padding-bottom: 1.5rem;
                 }
             }
 
@@ -348,8 +363,9 @@ body{
                 line-height: 1.2rem;
                 @media only screen and (max-width: 900px){
                     text-align: start;
-                    width: 90%;
+                    width: 95%;
                     margin: 0;
+                    padding-bottom: 1.5rem;
                 }
             }
 
@@ -366,6 +382,12 @@ body{
                 margin-left: auto;
                 margin-right: auto;
                 width: 80%;
+                @media only screen and (max-width: 900px){
+                    object-fit: cover;
+                    width: 90%;
+                    margin: 5%;
+                    margin: 0;
+                }
             }
 
             .knap{
@@ -373,6 +395,11 @@ body{
                 position: absolute;
                 top: 60%;
                 left: 30%;
+                @media only screen and (max-width: 900px){
+                    top: 25%;
+                    left: 0.5%;
+                    width: 60%;
+                }
             }
 
         }
@@ -381,6 +408,10 @@ body{
             padding-top: 5rem;
             padding-bottom: 5rem;
             text-align: center;
+            @media only screen and (max-width: 900px){
+                padding-top: 3.5rem;
+                padding-bottom: 2.5rem;
+            }
 
             h2{
                 margin-bottom: 0;
@@ -392,6 +423,10 @@ body{
                 text-align: center;
                 margin-left:auto ;
                 margin-right: auto;
+                @media only screen and (max-width: 900px){
+                    width: 80%; 
+                    padding-left: 0.5rem;
+                }
             }
             
             .knap{
@@ -399,6 +434,10 @@ body{
                 margin-top: 2.5rem;
                 margin-left:auto ;
                 margin-right: auto;
+                @media only screen and (max-width: 900px){
+                    width: 40%; 
+                    margin-top: 2rem;
+                }
             }
 
 
@@ -619,18 +658,36 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: partials.$blue;
+    @media only screen and (max-width: 900px){
+        min-width: 100%;
+        margin: 0;
+    }
 
     img{
         padding: 2rem;
         padding-left: 3rem;
         padding-top: 3rem;
         width: 35%;
+        @media only screen and (max-width: 900px){
+            width: 80%;
+            object-fit: cover;
+            padding-left: 1.5rem;
+            padding-top: 2rem;
+            padding-bottom: 0;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
     }
 
     p{
         color: partials.$white;
         padding-top: 2rem;
         padding-bottom: 2rem;
+        @media only screen and (max-width: 900px){
+            grid-column: 1/4;
+            grid-row: 2/3;
+            padding: 1.5rem;
+        }
     }
    
 }
