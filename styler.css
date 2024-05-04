@@ -64,7 +64,7 @@ p {
   box-shadow: 2px 2px 5px #999999;
   margin: 2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   .knap {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -100,7 +100,7 @@ p {
   font-family: "Abel";
   box-shadow: 2px 2px 5px #999999;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   .btn {
     font-size: 17px;
     padding-top: 0.5rem;
@@ -263,7 +263,7 @@ body header .topmenu-links .active {
 body main {
   padding: 5rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main {
     padding: 1rem;
   }
@@ -276,7 +276,7 @@ body main .boks1 {
   grid-template-columns: 1fr 1fr;
   padding-top: 2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks1 {
     display: block;
     padding-top: 2.5rem;
@@ -290,7 +290,7 @@ body main .boks1 h1 {
   margin-bottom: 0;
   margin-left: 2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks1 h1 {
     text-align: start;
     padding-top: 2rem;
@@ -301,7 +301,7 @@ body main .boks1 h3 {
   margin-top: 3px;
   margin-left: 2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks1 h3 {
     text-align: start;
     font-size: 17px;
@@ -313,7 +313,7 @@ body main .boks1 p {
   margin-left: 2rem;
   line-height: 1.2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks1 p {
     text-align: start;
     display: block;
@@ -333,7 +333,7 @@ body main .boks1 img {
   margin: 3rem;
   border-radius: 14px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks1 img {
     padding-top: 0.3rem;
     -o-object-fit: cover;
@@ -351,7 +351,7 @@ body main .boks1 .knap {
   top: 70%;
   left: 28%;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks1 .knap {
     top: 44%;
     left: 22%;
@@ -361,7 +361,7 @@ body main .boks1 .knap {
 body main .boks2 {
   padding-top: 8rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks2 {
     padding-top: 1rem;
     margin-left: 2rem;
@@ -374,7 +374,7 @@ body main .boks2 h2 {
   padding-top: 0.5rem;
   border-radius: 4px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks2 h2 {
     font-size: 28px;
     text-align: start;
@@ -388,7 +388,7 @@ body main .boks2 h3 {
   padding-top: 0.5rem;
   margin-bottom: 0;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks2 h3 {
     text-align: start;
     font-size: 17px;
@@ -405,7 +405,7 @@ body main .boks2 p {
   padding-bottom: 1rem;
   line-height: 1.2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks2 p {
     text-align: start;
     width: 95%;
@@ -427,7 +427,7 @@ body main .boks2 img {
   margin-right: auto;
   width: 80%;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks2 img {
     -o-object-fit: cover;
        object-fit: cover;
@@ -442,7 +442,7 @@ body main .boks2 .knap {
   top: 60%;
   left: 30%;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks2 .knap {
     top: 25%;
     left: 0.5%;
@@ -454,7 +454,7 @@ body main .boks3 {
   padding-bottom: 5rem;
   text-align: center;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks3 {
     padding-top: 3.5rem;
     padding-bottom: 2.5rem;
@@ -470,7 +470,7 @@ body main .boks3 p {
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks3 p {
     width: 80%;
     padding-left: 0.5rem;
@@ -482,7 +482,7 @@ body main .boks3 .knap {
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks3 .knap {
     width: 40%;
     margin-top: 2rem;
@@ -494,7 +494,7 @@ body main .boks4 h1 {
   padding-top: 12rem;
   text-align: center;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks4 h1 {
     font-size: 44px;
     padding-top: 10rem;
@@ -505,7 +505,7 @@ body main .boks4 h3 {
   padding-top: 2rem;
   text-align: center;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks4 h3 {
     font-size: 17px;
     padding-top: 1rem;
@@ -528,7 +528,7 @@ body main .test_overskrift {
   text-align: center;
   padding-top: 1.5rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .test_overskrift {
     padding-top: 6rem;
     font-size: 40px;
@@ -546,7 +546,7 @@ body main .boks5 {
   margin-left: auto;
   box-shadow: 4px 4px 5px #E4E4E4;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks5 {
     border: none;
     box-shadow: none;
@@ -561,7 +561,7 @@ body main .boks5 h2 {
   margin-top: 0;
   font-weight: 500;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks5 h2 {
     font-weight: 500;
     font-size: 25px;
@@ -575,7 +575,7 @@ body main .boks5 h2 {
 body main .boks5 .graa-streg {
   display: none;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks5 .graa-streg {
     display: block;
     margin-top: 1rem;
@@ -589,7 +589,7 @@ body main .boks5 p {
   margin-right: auto;
   font-size: 18px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks5 p {
     width: 75%;
     margin-top: 2rem;
@@ -602,7 +602,7 @@ body main .boks5 .knap {
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks5 .knap {
     width: 45%;
   }
@@ -630,7 +630,7 @@ body main .boks6 {
   margin-right: auto;
   background-color: #FFF9F1;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks6 {
     display: block;
     width: 80%;
@@ -666,7 +666,7 @@ body main .boks6 h3 {
   margin-right: auto;
   padding-top: 2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks6 h3 {
     padding-top: 1rem;
   }
@@ -676,7 +676,7 @@ body main .boks6 .knap {
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks6 .knap {
     width: 50%;
     margin-bottom: 2rem;
@@ -695,7 +695,7 @@ body main .boks7 .graa-streg {
 body main .boks7 .overskrift1 {
   padding-top: 12rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks7 .overskrift1 {
     padding-top: 4rem;
   }
@@ -703,7 +703,7 @@ body main .boks7 .overskrift1 {
 body main .boks7 h2 {
   padding-top: 6rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks7 h2 {
     padding-top: 3rem;
     text-align: center;
@@ -717,7 +717,7 @@ body main .boks7 p {
   font-size: 16px;
   width: 90%;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   body main .boks7 p {
     width: 95%;
     font-size: 18px;
