@@ -742,7 +742,7 @@ body footer img {
 }
 @media only screen and (max-width: 900px) {
   body footer img {
-    width: 80%;
+    width: 60%;
     -o-object-fit: cover;
        object-fit: cover;
     padding-left: 1.5rem;
