@@ -49,6 +49,11 @@ p {
   font-size: 13.5px;
   padding-bottom: 1rem;
 }
+@media only screen and (max-width: 900px) {
+  .liste li {
+    width: 95%;
+  }
+}
 
 .knap {
   padding: 0.8rem;
@@ -109,7 +114,7 @@ p {
   box-shadow: none;
 }
 
-/*-------------Mobil nav---------------*/
+/*--------------------------------------------Mobil nav---------------*/
 .mobil-nav {
   display: none;
 }
@@ -274,10 +279,11 @@ body main .boks1 {
 @media only screen and (max-width: 900px) {
   body main .boks1 {
     display: block;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    padding-bottom: 2rem;
   }
 }
 body main .boks1 h1 {
@@ -312,7 +318,7 @@ body main .boks1 p {
     text-align: start;
     display: block;
     width: 90%;
-    padding-top: 0.3rem;
+    padding-top: 0.5rem;
     padding-right: 0;
   }
 }
@@ -336,6 +342,7 @@ body main .boks1 img {
     height: 100%;
     margin: 0;
     margin-left: 5%;
+    margin-top: 1.5rem;
   }
 }
 body main .boks1 .knap {
@@ -487,10 +494,22 @@ body main .boks4 h1 {
   padding-top: 12rem;
   text-align: center;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks4 h1 {
+    font-size: 44px;
+    padding-top: 10rem;
+  }
+}
 body main .boks4 h3 {
   margin-top: 0;
   padding-top: 2rem;
   text-align: center;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks4 h3 {
+    font-size: 17px;
+    padding-top: 1rem;
+  }
 }
 body main .boks4 .graa-streg {
   margin-top: 10rem;
@@ -509,6 +528,12 @@ body main .test_overskrift {
   text-align: center;
   padding-top: 1.5rem;
 }
+@media only screen and (max-width: 900px) {
+  body main .test_overskrift {
+    padding-top: 6rem;
+    font-size: 40px;
+  }
+}
 body main .boks5 {
   margin-top: 3rem;
   padding-top: 3rem;
@@ -521,10 +546,41 @@ body main .boks5 {
   margin-left: auto;
   box-shadow: 4px 4px 5px #E4E4E4;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks5 {
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    padding-bottom: 0;
+  }
+}
 body main .boks5 h2 {
   margin-bottom: 1rem;
   margin-top: 0;
   font-weight: 500;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks5 h2 {
+    font-weight: 500;
+    font-size: 25px;
+    width: 95%;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+}
+body main .boks5 .graa-streg {
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks5 .graa-streg {
+    display: block;
+    margin-top: 1rem;
+    width: 70%;
+  }
 }
 body main .boks5 p {
   margin-top: 1.5rem;
@@ -533,11 +589,23 @@ body main .boks5 p {
   margin-right: auto;
   font-size: 18px;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks5 p {
+    width: 75%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
 body main .boks5 .knap {
   width: 26%;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks5 .knap {
+    width: 45%;
+  }
 }
 body main .boks5 .knap a {
   font-size: 22px;
@@ -561,6 +629,13 @@ body main .boks6 {
   margin-left: auto;
   margin-right: auto;
   background-color: #FFF9F1;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks6 {
+    display: block;
+    width: 80%;
+    padding-bottom: 1rem;
+  }
 }
 body main .boks6 .overlay3 {
   position: relative;
@@ -591,10 +666,21 @@ body main .boks6 h3 {
   margin-right: auto;
   padding-top: 2rem;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks6 h3 {
+    padding-top: 1rem;
+  }
+}
 body main .boks6 .knap {
   width: 35%;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks6 .knap {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
 }
 body main .boks7 {
   width: 95%;
@@ -609,8 +695,19 @@ body main .boks7 .graa-streg {
 body main .boks7 .overskrift1 {
   padding-top: 12rem;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks7 .overskrift1 {
+    padding-top: 4rem;
+  }
+}
 body main .boks7 h2 {
   padding-top: 6rem;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks7 h2 {
+    padding-top: 3rem;
+    text-align: center;
+  }
 }
 body main .boks7 p {
   line-height: 1.2rem;
@@ -619,6 +716,12 @@ body main .boks7 p {
   font-family: "Abel";
   font-size: 16px;
   width: 90%;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks7 p {
+    width: 95%;
+    font-size: 18px;
+  }
 }
 body footer {
   display: grid;
