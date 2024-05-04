@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
-    <link rel="stylesheet" href="styling.css">
     <link rel="stylesheet" href="styler.css">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="style-media.css">
 </head>
 <body>
 
@@ -19,12 +20,25 @@
         </ul>
       </nav>
 
+        <div class="hamburger">
+            <div class="bar"></div>
+        </div> 
+
     </header>
 
     <main>
 
-        <section class="boks1">
-            <div>
+        <nav class="mobil-nav"> 
+            <a href="index.html">FORSIDE</a>
+            <div class="graa-streg"></div>
+            <a href="datasikkerhed.html">DATASIKKERHED</a>
+            <div class="graa-streg"></div>
+            <a href="viden.html">TEST DIN VIDEN</a>
+            <div class="graa-streg"></div>
+        </nav>
+
+        <section class="boks1" id="boks-1">
+            <div class="boks1-del1">
                 <h1>Digital Tryghed</h1>
                 <h3>Opnå Sikkerhed på Nettet</h3>
                 <p>I dag, i en verden, der er mere forbundet end nogensinde før, er beskyttelsen af vores digitale oplysninger afgørende. Uanset om det er at identificere og modvirke phishing-forsøg, oprette stærke adgangskoder eller opdatere vores enheder regelmæssigt, er investeringen i datasikkerhed ikke bare en mulighed, men en nødvendighed i dagens digitale landskab.</p>
@@ -96,7 +110,7 @@
     </footer>
 
 
-
+<script src="hamburger.js"></script>
     
 </body>
 </html>

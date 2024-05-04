@@ -1,0 +1,113 @@
+@media only screen and (max-width: 900px){
+
+
+    /* -------------------Hamburger menu for mobil site--------------------- */
+  
+  
+  .hamburger {
+    position: relative;
+    display: block;
+    width: 35px;
+    margin: 1rem;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    z-index: 10;
+  }
+  
+  .hamburger .bar,
+  .hamburger:after,
+  .hamburger:before {
+    content: ""; /* content er none*/
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin: 6px 0;
+    transition: 0.4s;
+    background-color: #040404;
+  }
+  
+  .hamburger.is-active:before {
+    transform: rotate(-45deg) translate(-7px, 5px);
+  }
+  
+  .hamburger.is-active .bar {
+    opacity: 0;
+  }
+  
+  .hamburger.is-active:after {
+    transform: rotate(45deg) translate(-9px, -8px);
+  }
+  
+  .mobil-nav {
+    margin-top: 0px;
+    display: block;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: 9;
+    padding-top: 18%;
+    transition: 0.4s;
+    background-color: #f7f7f7;
+  }
+  
+  .mobil-nav.is-active {
+    left: 0;
+  }
+  
+  .mobil-nav a {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Abel";
+    font-size:30px;
+    color: #0075FF;
+    padding-top: 3rem;
+  }
+  
+  .mobil-nav .graa-streg{
+    width: 85%;
+    margin-top: 3rem;
+  }
+  /*-----------------------------generelle ting-----------------------------------------*/
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    a{
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

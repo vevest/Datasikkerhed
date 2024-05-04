@@ -59,11 +59,22 @@ p {
   box-shadow: 2px 2px 5px #999999;
   margin: 2rem;
 }
+@media only screen and (max-width: 900px) {
+  .knap {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
 .knap a {
   color: #f7f7f7;
   font-family: "Abel";
   font-size: 20px;
   text-decoration: none;
+}
+@media only screen and (max-width: 900px) {
+  .knap a {
+    font-size: 17px;
+  }
 }
 
 .knap:hover {
@@ -84,11 +95,27 @@ p {
   font-family: "Abel";
   box-shadow: 2px 2px 5px #999999;
 }
+@media only screen and (max-width: 900px) {
+  .btn {
+    font-size: 17px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
 
 .btn:hover {
   background-color: #4198FF;
   cursor: pointer;
   box-shadow: none;
+}
+
+/*-------------Mobil nav---------------*/
+.mobil-nav {
+  display: none;
+}
+
+.hamburger {
+  display: none;
 }
 
 .header_logo:hover {
@@ -179,17 +206,33 @@ body header {
   width: 100%;
   z-index: 500;
 }
+@media only screen and (max-width: 900px) {
+  body header {
+    display: flex;
+    max-width: 100%;
+  }
+}
 body header .logo {
   padding: 2.5rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   z-index: 100;
 }
+@media only screen and (max-width: 900px) {
+  body header .logo {
+    padding: 1rem;
+  }
+}
 body header .header_logo {
   height: 2.2rem;
 }
 body header .topmenu {
   z-index: 100;
+}
+@media only screen and (max-width: 900px) {
+  body header .topmenu {
+    display: none;
+  }
 }
 body header .topmenu-links {
   display: flex;
@@ -215,6 +258,11 @@ body header .topmenu-links .active {
 body main {
   padding: 5rem;
 }
+@media only screen and (max-width: 900px) {
+  body main {
+    padding: 1rem;
+  }
+}
 body main img {
   width: 100%;
 }
@@ -223,19 +271,48 @@ body main .boks1 {
   grid-template-columns: 1fr 1fr;
   padding-top: 2rem;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks1 {
+    display: block;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
 body main .boks1 h1 {
   margin-bottom: 0;
   margin-left: 2rem;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks1 h1 {
+    text-align: start;
+    padding-top: 2rem;
+    font-size: 40px;
+  }
+}
 body main .boks1 h3 {
   margin-top: 3px;
   margin-left: 2rem;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks1 h3 {
+    text-align: start;
+    font-size: 17px;
+  }
 }
 body main .boks1 p {
   padding-top: 1.5rem;
   padding-right: 3rem;
   margin-left: 2rem;
   line-height: 1.2rem;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks1 p {
+    text-align: start;
+    display: block;
+    width: 90%;
+  }
 }
 body main .boks1 .overlay1 {
   position: relative; /* set container to a relative position */
@@ -254,8 +331,20 @@ body main .boks1 .knap {
   top: 70%;
   left: 28%;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks1 .knap {
+    top: 45%;
+    left: 28%;
+  }
+}
 body main .boks2 {
   padding-top: 8rem;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks2 {
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
 }
 body main .boks2 h2 {
   text-align: center;
@@ -264,10 +353,24 @@ body main .boks2 h2 {
   padding-top: 0.5rem;
   border-radius: 4px;
 }
+@media only screen and (max-width: 900px) {
+  body main .boks2 h2 {
+    font-size: 28px;
+    text-align: start;
+    background-color: white;
+  }
+}
 body main .boks2 h3 {
   text-align: center;
   padding-top: 0.5rem;
   margin-bottom: 0;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks2 h3 {
+    text-align: start;
+    font-size: 17px;
+    width: 90%;
+  }
 }
 body main .boks2 p {
   width: 40%;
@@ -276,6 +379,13 @@ body main .boks2 p {
   margin-right: auto;
   padding-bottom: 1rem;
   line-height: 1.2rem;
+}
+@media only screen and (max-width: 900px) {
+  body main .boks2 p {
+    text-align: start;
+    width: 90%;
+    margin: 0;
+  }
 }
 body main .boks2 .overlay2 {
   position: relative;
@@ -299,6 +409,7 @@ body main .boks2 .knap {
 }
 body main .boks3 {
   padding-top: 5rem;
+  padding-bottom: 5rem;
   text-align: center;
 }
 body main .boks3 h2 {
@@ -352,7 +463,7 @@ body main .boks5 {
   border: #E4E4E4 solid 1px;
   padding-bottom: 2rem;
   border-radius: 6px;
-  width: 75%;
+  width: 60%;
   margin-right: auto;
   margin-left: auto;
   box-shadow: 4px 4px 5px #E4E4E4;
@@ -388,12 +499,12 @@ body main .graa-streg {
 }
 body main .boks6 {
   margin-top: 6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   box-shadow: 2px 2px 5px #999999;
   border-radius: 4px;
-  width: 85%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   background-color: #FFF9F1;
@@ -433,7 +544,7 @@ body main .boks6 .knap {
   margin-right: auto;
 }
 body main .boks7 {
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -454,6 +565,7 @@ body main .boks7 p {
   font-style: italic;
   font-family: "Abel";
   font-size: 16px;
+  width: 90%;
 }
 body footer {
   display: grid;

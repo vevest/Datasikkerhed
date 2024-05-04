@@ -10,12 +10,19 @@
     border-radius: 13px;
     box-shadow: 2px 2px 5px partials.$grey;
     margin: 2rem;
+    @media only screen and (max-width: 900px){
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 
     a{
         color: partials.$white;
         font-family: "Abel" ;
         font-size: 20px;
         text-decoration: none;
+        @media only screen and (max-width: 900px){
+            font-size: 17px;
+        }
     }
 
 }
@@ -38,6 +45,11 @@
     font-size: 24px;
     font-family: "Abel" ;
     box-shadow: 2px 2px 5px #999999;
+    @media only screen and (max-width: 900px){
+        font-size: 17px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 }
 
 .btn:hover{
@@ -46,6 +58,17 @@
     box-shadow: none;
 }
 
+/*-------------Mobil nav---------------*/
+
+.mobil-nav{
+    display: none;
+  }
+  
+  .hamburger{
+    display: none;
+  }
+  
+  
 
 .header_logo:hover{
     transform: scale(1.2);
@@ -57,7 +80,7 @@
   }
 
 
-
+//----------------Branching scenario quizzen----------------------------
 .tilbage-link {
     position: absolute;
     top: 2%; 
@@ -127,7 +150,7 @@
     display: none; // Skjul quizboks, når scenarie er skjult
 }
 
-
+//----------------------Styling af pages-----------------------------
 body{
     padding: 0;
     margin: 0;
@@ -138,16 +161,22 @@ body{
         align-items: center;
         background-color: white;
         box-shadow: 2px 5px 15px partials.$light_grey;
-        
         position: fixed;
         width: 100%;
         z-index: 500;
+        @media only screen and (max-width: 900px){
+            display: flex;
+            max-width: 100%;
+        }
     
         .logo {
             padding: 2.5rem;
             padding-top: 0.8rem;
             padding-bottom: 0.8rem;
             z-index: 100;
+            @media only screen and (max-width: 900px){
+                padding: 1rem;
+            }
         }
     
         .header_logo{
@@ -157,6 +186,9 @@ body{
         
         .topmenu {
             z-index: 100;
+            @media only screen and (max-width: 900px){
+                display: none;
+            }
         }
     
         .topmenu-links {
@@ -188,6 +220,9 @@ body{
 
     main{
         padding: 5rem;
+        @media only screen and (max-width: 900px){
+            padding: 1rem;
+        }
         
         img{
         width: 100%;
@@ -197,18 +232,36 @@ body{
             display: grid;
             grid-template-columns: 1fr 1fr;
             padding-top: 2rem;
+            @media only screen and (max-width: 900px){
+                display: block;
+                padding-top: 2rem;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+
+            }
 
             
 
             h1{
                 margin-bottom: 0;
                 margin-left: 2rem;
+                @media only screen and (max-width: 900px){
+                    text-align: start;
+                    padding-top: 2rem;
+                    font-size: 40px;
+                }
               }
 
 
             h3{
                 margin-top: 3px;
                 margin-left: 2rem;
+                @media only screen and (max-width: 900px){
+                    text-align: start;
+                    font-size: 17px;
+    
+                }
               }
 
             p{
@@ -216,6 +269,11 @@ body{
                 padding-right: 3rem;
                 margin-left: 2rem;
                 line-height: 1.2rem;
+                @media only screen and (max-width: 900px){
+                    text-align: start;
+                    display: block;
+                    width: 90%;
+                }
             }
 
             .overlay1 {
@@ -235,6 +293,10 @@ body{
                 position: absolute;
                 top: 70%;
                 left: 28%;
+                @media only screen and (max-width: 900px){
+                    top: 45%;
+                    left: 28%;
+                }
             }
 
 
@@ -245,6 +307,10 @@ body{
 
         .boks2{
             padding-top: 8rem;
+            @media only screen and (max-width: 900px){
+                padding-top: 1rem;
+                margin-left: 2rem;
+            }
 
             h2{
                 text-align: center;
@@ -252,6 +318,11 @@ body{
                 padding-bottom: 0.5rem;
                 padding-top: 0.5rem;
                 border-radius: 4px;
+                @media only screen and (max-width: 900px){
+                    font-size: 28px;
+                    text-align: start;
+                    background-color: white;
+                }
             }
 
 
@@ -261,6 +332,11 @@ body{
                 text-align: center;
                 padding-top: 0.5rem;
                 margin-bottom: 0;
+                @media only screen and (max-width: 900px){
+                    text-align: start;
+                    font-size: 17px;
+                    width: 90%;
+                }
             }
 
             p{
@@ -270,6 +346,11 @@ body{
                 margin-right: auto;
                 padding-bottom: 1rem;
                 line-height: 1.2rem;
+                @media only screen and (max-width: 900px){
+                    text-align: start;
+                    width: 90%;
+                    margin: 0;
+                }
             }
 
             .overlay2{
@@ -298,6 +379,7 @@ body{
 
         .boks3{
             padding-top: 5rem;
+            padding-bottom: 5rem;
             text-align: center;
 
             h2{
@@ -373,7 +455,7 @@ body{
             border: partials.$light_grey solid 1px;
             padding-bottom: 2rem;
             border-radius: 6px;
-            width: 75%;
+            width: 60%;
             margin-right: auto;
             margin-left: auto;
             box-shadow: 4px 4px 5px partials.$light_grey;
@@ -422,12 +504,12 @@ body{
 
         .boks6{
             margin-top: 6rem;
-            margin-bottom: 4rem;
+            margin-bottom: 6rem;
             display: grid;
             grid-template-columns: 1fr 1fr;
             box-shadow: 2px 2px 5px partials.$grey;
             border-radius: 4px;
-            width: 85%;
+            width: 65%;
             margin-left: auto;
             margin-right: auto;
             background-color: partials.$primary;
@@ -477,7 +559,7 @@ body{
         }
 
         .boks7{
-            width: 80%;
+            width: 95%;
             margin-left: auto;
             margin-right: auto;
 
@@ -501,6 +583,7 @@ body{
                 font-style: italic;
                 font-family: "Abel" ;
                 font-size: 16px;
+                width: 90%;
             }
             
 
@@ -557,12 +640,7 @@ footer{
 
 
 
-
-
-
-
-
-
-
 }
+
+
 

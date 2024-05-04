@@ -106,3 +106,6 @@ for (var i = 0; i < knapper.length; i++) {
         window.location.href = 'test.html';
     });
 }
+
+
+
